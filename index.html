@@ -1,36 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!--
-============================================================================
-  BEFORE PUBLISHING — replace these placeholders (find-and-replace):
-    {{AGENCY_NAME}}         e.g., "Gridline Local" or your chosen name
-    {{AGENCY_LEGAL_NAME}}   e.g., "Gridline Local LLC"
-    {{FOUNDER_FIRST}}       e.g., "Benton"
-    {{FOUNDER_FULL}}        e.g., "Benton Theissen"
-    {{FOUNDER_BIO_YEARS}}   e.g., "5+ years"
-    {{PRIOR_EMPLOYER}}      e.g., "Ohm Analytics"
-    {{FOUNDER_EMAIL}}       e.g., "benton@gridlinelocal.com"
-    {{FOUNDER_PHONE}}       e.g., "(555) 123-4567"
-    {{LINKEDIN_URL}}        e.g., "https://linkedin.com/in/bentontheissen"
-    {{CALENDLY_URL}}        e.g., "https://calendly.com/benton/audit"
-    {{STRIPE_STARTER}}      Starter tier Stripe Payment Link URL
-    {{STRIPE_GROWTH}}       Growth tier Stripe Payment Link URL
-    {{STRIPE_DOMINATE}}     Dominate tier Stripe Payment Link URL
-    {{CITY_STATE}}          e.g., "Southern Utah" or "St. George, UT"
-    {{YEAR}}                2026
-
-  FOUNDER PHOTO: replace the placeholder <div> in the About section with:
-    <img src="founder.jpg" alt="{{FOUNDER_FULL}}" class="...">
-  Put the photo at website/founder.jpg
-============================================================================
--->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{AGENCY_NAME}} — Local SEO for Energy Contractors</title>
-<meta name="description" content="Google Business Profile optimization for HVAC, solar, and energy contractors. Data-driven local SEO with transparent reporting and short-term commitments.">
-<meta property="og:title" content="{{AGENCY_NAME}} — Local SEO for Energy Contractors">
-<meta property="og:description" content="Rank in the Google Map Pack. Built by a former energy-data analyst.">
+<title>Mapline Local — Google Business Profile Optimization</title>
+<meta name="description" content="Local SEO for service businesses. Transparent pricing, 3-month commitment, 49-point geo-grid reporting.">
+<meta property="og:title" content="Mapline Local — Google Business Profile Optimization">
+<meta property="og:description" content="Rank in the Google Map Pack. Data-driven local SEO with transparent reporting and short-term commitments.">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -62,9 +38,6 @@
     -webkit-font-smoothing: antialiased;
   }
   .serif { font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; letter-spacing: -0.01em; }
-  .gradient-fade {
-    background: linear-gradient(180deg, rgba(250,250,250,0) 0%, rgba(250,250,250,1) 100%);
-  }
   .grid-bg {
     background-image:
       linear-gradient(rgba(23, 23, 23, 0.04) 1px, transparent 1px),
@@ -75,37 +48,37 @@
 </head>
 <body class="font-sans text-ink bg-cream">
 
-<!-- ============= NAV ============= -->
+<!-- NAV -->
 <nav class="sticky top-0 z-50 bg-cream/80 backdrop-blur-md border-b border-black/5">
   <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-    <a href="#" class="serif text-xl">{{AGENCY_NAME}}</a>
+    <a href="#" class="serif text-xl">Mapline Local</a>
     <div class="hidden md:flex items-center gap-8 text-sm">
       <a href="#how-it-works" class="hover:text-accent transition">How it works</a>
       <a href="#methodology" class="hover:text-accent transition">Methodology</a>
       <a href="#pricing" class="hover:text-accent transition">Pricing</a>
       <a href="#about" class="hover:text-accent transition">About</a>
-      <a href="{{CALENDLY_URL}}" class="bg-ink text-cream px-4 py-2 rounded-full text-sm font-medium hover:bg-accent transition">Book an audit</a>
+      <a href="#cta" class="bg-ink text-cream px-4 py-2 rounded-full text-sm font-medium hover:bg-accent transition">Book an audit</a>
     </div>
-    <a href="{{CALENDLY_URL}}" class="md:hidden bg-ink text-cream px-4 py-2 rounded-full text-sm font-medium">Book</a>
+    <a href="#cta" class="md:hidden bg-ink text-cream px-4 py-2 rounded-full text-sm font-medium">Book</a>
   </div>
 </nav>
 
-<!-- ============= HERO ============= -->
+<!-- HERO -->
 <section class="relative grid-bg">
   <div class="max-w-4xl mx-auto px-6 pt-24 pb-32 text-center relative">
     <div class="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-ink/60 mb-8 bg-white border border-black/10 px-3 py-1.5 rounded-full">
       <span class="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></span>
-      <span>Taking on new clients — {{CITY_STATE}}</span>
+      <span>Taking on new clients</span>
     </div>
     <h1 class="serif text-5xl md:text-7xl leading-[1.05] mb-8">
-      Local SEO for<br>energy contractors.<br>
-      <span class="italic text-ink/70">Built by someone who's done the data.</span>
+      Rank in the Google Map Pack.<br>
+      <span class="italic text-ink/70">Keep the leads coming in.</span>
     </h1>
     <p class="text-lg md:text-xl text-ink/70 max-w-2xl mx-auto mb-10 leading-relaxed">
-      Google Business Profile optimization for HVAC, solar, electrical, and home energy businesses. Transparent pricing, 3-month commitment, no black-box reports.
+      Google Business Profile optimization for local service businesses. Transparent pricing, 3-month commitment, no black-box reports.
     </p>
     <div class="flex flex-col sm:flex-row gap-3 justify-center items-center">
-      <a href="{{CALENDLY_URL}}" class="bg-ink text-cream px-6 py-3 rounded-full font-medium hover:bg-accent transition w-full sm:w-auto">
+      <a href="#cta" class="bg-ink text-cream px-6 py-3 rounded-full font-medium hover:bg-accent transition w-full sm:w-auto">
         Book a free 15-min audit →
       </a>
       <a href="#pricing" class="text-ink underline underline-offset-4 hover:text-accent transition">
@@ -116,25 +89,25 @@
   </div>
 </section>
 
-<!-- ============= THE PROBLEM ============= -->
+<!-- THE PROBLEM -->
 <section class="border-t border-black/5 py-24">
   <div class="max-w-3xl mx-auto px-6">
     <div class="text-xs uppercase tracking-widest text-ink/60 mb-6">The problem</div>
     <h2 class="serif text-4xl md:text-5xl leading-tight mb-8">
       70% of calls go to the top 3 on Google Maps. If you're ranked 7 or lower, you're invisible.
     </h2>
-    <div class="prose max-w-none text-lg text-ink/75 space-y-5">
+    <div class="text-lg text-ink/75 space-y-5 leading-relaxed">
       <p>
-        A homeowner searching "HVAC near me" or "solar installer {{CITY_STATE}}" sees three businesses in the map pack. The rest scroll past. Being ranked #7 might feel like "on the first page" — it's not. It's the 28th option most searchers never open.
+        Someone searching "roofer near me," "dentist near me," or any service you provide sees three businesses in the map pack. The rest scroll past. Being ranked #7 might feel like "on the first page" — it's not. It's the 28th option most searchers never open.
       </p>
       <p>
-        Most SEO agencies selling to energy contractors don't know what a SEER rating is. They run the same playbook they use for pizza shops. That's why your last agency didn't move the needle.
+        The businesses ranking above you aren't necessarily better than you. They're more visible. Fixing that is a very specific body of work — one most agencies skip in favor of the usual SEO theater.
       </p>
     </div>
   </div>
 </section>
 
-<!-- ============= WHAT WE DO ============= -->
+<!-- WHAT WE DO -->
 <section id="how-it-works" class="bg-white border-t border-black/5 py-24">
   <div class="max-w-5xl mx-auto px-6">
     <div class="text-center mb-16">
@@ -160,16 +133,16 @@
       </div>
       <div>
         <div class="serif text-5xl text-accent mb-4">03</div>
-        <h3 class="font-semibold text-xl mb-3">Industry-specific citations</h3>
+        <h3 class="font-semibold text-xl mb-3">Citation authority + NAP consistency</h3>
         <p class="text-ink/70 leading-relaxed">
-          NRCA, ACCA, solar installer directories, Angi, HomeAdvisor, state energy registries — the authoritative directories that actually matter for your vertical. NAP consistency enforced across all.
+          Apple Maps, Bing, Yelp, BBB, Facebook, industry-specific directories — the authoritative listings Google cross-references. We fix inconsistencies across every platform Google reads.
         </p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============= METHODOLOGY ============= -->
+<!-- METHODOLOGY -->
 <section id="methodology" class="border-t border-black/5 py-24">
   <div class="max-w-3xl mx-auto px-6">
     <div class="text-xs uppercase tracking-widest text-ink/60 mb-6">Methodology</div>
@@ -230,7 +203,7 @@
   </div>
 </section>
 
-<!-- ============= PRICING ============= -->
+<!-- PRICING -->
 <section id="pricing" class="bg-white border-t border-black/5 py-24">
   <div class="max-w-6xl mx-auto px-6">
     <div class="text-center mb-16">
@@ -243,7 +216,6 @@
 
     <div class="grid md:grid-cols-3 gap-6">
 
-      <!-- STARTER -->
       <div class="bg-cream border border-black/10 rounded-2xl p-8">
         <div class="mb-6">
           <div class="text-xs uppercase tracking-widest text-ink/60 mb-2">Starter</div>
@@ -263,15 +235,14 @@
           <li class="flex gap-2"><span class="text-accent">✓</span> 5 citations / month</li>
           <li class="flex gap-2"><span class="text-accent">✓</span> Monthly ranking report + Loom</li>
         </ul>
-        <a href="{{STRIPE_STARTER}}" class="block w-full bg-ink text-cream text-center py-3 rounded-full font-medium hover:bg-accent transition">
+        <a href="#cta" class="block w-full bg-ink text-cream text-center py-3 rounded-full font-medium hover:bg-accent transition">
           Start with Starter
         </a>
-        <a href="{{CALENDLY_URL}}" class="block text-center text-sm text-ink/60 mt-3 underline underline-offset-2 hover:text-accent">
+        <a href="#cta" class="block text-center text-sm text-ink/60 mt-3 underline underline-offset-2 hover:text-accent">
           Or book a 15-min call first
         </a>
       </div>
 
-      <!-- GROWTH (highlighted) -->
       <div class="bg-ink text-cream border border-ink rounded-2xl p-8 md:-my-4 shadow-xl relative">
         <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-accent text-cream text-xs font-medium uppercase tracking-widest px-3 py-1 rounded-full">
           Most popular
@@ -295,15 +266,14 @@
           <li class="flex gap-2"><span class="text-accent">✓</span> 49-point grid tracking</li>
           <li class="flex gap-2"><span class="text-accent">✓</span> Monthly 30-min strategy call</li>
         </ul>
-        <a href="{{STRIPE_GROWTH}}" class="block w-full bg-accent text-cream text-center py-3 rounded-full font-medium hover:bg-blue-500 transition">
+        <a href="#cta" class="block w-full bg-accent text-cream text-center py-3 rounded-full font-medium hover:bg-blue-500 transition">
           Start with Growth
         </a>
-        <a href="{{CALENDLY_URL}}" class="block text-center text-sm text-cream/60 mt-3 underline underline-offset-2 hover:text-cream">
+        <a href="#cta" class="block text-center text-sm text-cream/60 mt-3 underline underline-offset-2 hover:text-cream">
           Or book a 15-min call first
         </a>
       </div>
 
-      <!-- DOMINATE -->
       <div class="bg-cream border border-black/10 rounded-2xl p-8">
         <div class="mb-6">
           <div class="text-xs uppercase tracking-widest text-ink/60 mb-2">Dominate</div>
@@ -324,10 +294,10 @@
           <li class="flex gap-2"><span class="text-accent">✓</span> Quarterly photo/video updates</li>
           <li class="flex gap-2"><span class="text-accent">✓</span> Bi-weekly strategy calls</li>
         </ul>
-        <a href="{{STRIPE_DOMINATE}}" class="block w-full bg-ink text-cream text-center py-3 rounded-full font-medium hover:bg-accent transition">
+        <a href="#cta" class="block w-full bg-ink text-cream text-center py-3 rounded-full font-medium hover:bg-accent transition">
           Start with Dominate
         </a>
-        <a href="{{CALENDLY_URL}}" class="block text-center text-sm text-ink/60 mt-3 underline underline-offset-2 hover:text-accent">
+        <a href="#cta" class="block text-center text-sm text-ink/60 mt-3 underline underline-offset-2 hover:text-accent">
           Or book a 15-min call first
         </a>
       </div>
@@ -336,41 +306,39 @@
   </div>
 </section>
 
-<!-- ============= ABOUT ============= -->
+<!-- ABOUT -->
 <section id="about" class="border-t border-black/5 py-24">
   <div class="max-w-4xl mx-auto px-6">
     <div class="grid md:grid-cols-[auto_1fr] gap-10 items-start">
-      <!-- Replace this div with: <img src="founder.jpg" alt="{{FOUNDER_FULL}}" class="w-40 h-40 rounded-full object-cover"> -->
       <div class="w-40 h-40 rounded-full bg-gradient-to-br from-ink/10 to-ink/30 flex items-center justify-center shrink-0">
-        <span class="serif text-5xl text-ink/40">{{FOUNDER_FIRST}}.</span>
+        <span class="serif text-5xl text-ink/40">B.</span>
       </div>
       <div>
         <div class="text-xs uppercase tracking-widest text-ink/60 mb-3">About</div>
         <h2 class="serif text-4xl mb-6">
-          {{FOUNDER_FULL}}, Founder
+          Benton Theissen, Founder
         </h2>
         <div class="text-ink/75 leading-relaxed space-y-5">
           <p>
-            I spent {{FOUNDER_BIO_YEARS}} in data analytics at {{PRIOR_EMPLOYER}}, working with solar and home energy companies. I saw the same pattern everywhere: great local operators with real credentials and real work, invisible on Google Maps because nobody inside the business had time to manage it and the agencies they hired didn't understand the vertical.
+            I come from a data analytics background. Before starting Mapline Local, I spent years building measurement systems for operating businesses — the kind of rigor most local SEO agencies don't apply to the work they do on your behalf.
           </p>
           <p>
-            I started {{AGENCY_NAME}} to apply real analytics rigor to local SEO for energy contractors. No gray-hat tricks, no black-box dashboards — just the specific, measurable work that moves rankings, and a clear view of what moved and what didn't.
+            I started this to do one thing well: move local service businesses from buried on Google Maps into the top 3 for the searches that actually generate calls. No black-box dashboards, no gray-hat tricks — just the specific, measurable work that moves rankings, and a clear view of what moved and what didn't.
           </p>
           <p>
             I work with a limited number of clients so every account gets direct attention. No account managers, no handoffs — you work with me.
           </p>
         </div>
         <div class="mt-8 flex flex-wrap gap-5 text-sm">
-          <a href="{{LINKEDIN_URL}}" class="underline underline-offset-4 hover:text-accent">LinkedIn →</a>
-          <a href="mailto:{{FOUNDER_EMAIL}}" class="underline underline-offset-4 hover:text-accent">{{FOUNDER_EMAIL}}</a>
-          <a href="tel:{{FOUNDER_PHONE}}" class="underline underline-offset-4 hover:text-accent">{{FOUNDER_PHONE}}</a>
+          <a href="https://www.linkedin.com/in/bentontheissen" class="underline underline-offset-4 hover:text-accent">LinkedIn →</a>
+          <a href="mailto:bentontheissen@gmail.com" class="underline underline-offset-4 hover:text-accent">bentontheissen@gmail.com</a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============= COMPLIANCE / HOW WE WORK ============= -->
+<!-- COMPLIANCE / HOW WE WORK -->
 <section class="bg-white border-t border-black/5 py-24">
   <div class="max-w-3xl mx-auto px-6">
     <div class="text-xs uppercase tracking-widest text-ink/60 mb-6">How we work</div>
@@ -410,8 +378,8 @@
   </div>
 </section>
 
-<!-- ============= CTA ============= -->
-<section class="border-t border-black/5 py-32 grid-bg">
+<!-- CTA -->
+<section id="cta" class="border-t border-black/5 py-32 grid-bg">
   <div class="max-w-3xl mx-auto px-6 text-center">
     <h2 class="serif text-5xl md:text-6xl leading-tight mb-8">
       See where you rank — <span class="italic">and what it's costing you.</span>
@@ -419,29 +387,28 @@
     <p class="text-lg text-ink/70 mb-10 max-w-2xl mx-auto">
       A free 15-minute audit. I'll show you your current Google Maps position for three of your most important searches, where your top competitors are outranking you, and the 3 specific changes that would move you most.
     </p>
-    <a href="{{CALENDLY_URL}}" class="inline-block bg-ink text-cream px-8 py-4 rounded-full font-medium hover:bg-accent transition text-lg">
-      Book a 15-min audit →
+    <a href="mailto:bentontheissen@gmail.com?subject=Free%20Audit%20Request" class="inline-block bg-ink text-cream px-8 py-4 rounded-full font-medium hover:bg-accent transition text-lg">
+      Email me for a free audit →
     </a>
     <p class="text-xs text-ink/50 mt-6">No pitch. No hard sell. Just data.</p>
   </div>
 </section>
 
-<!-- ============= FOOTER ============= -->
+<!-- FOOTER -->
 <footer class="border-t border-black/10 py-12 bg-white">
   <div class="max-w-6xl mx-auto px-6">
     <div class="grid md:grid-cols-3 gap-8">
       <div>
-        <div class="serif text-xl mb-3">{{AGENCY_NAME}}</div>
+        <div class="serif text-xl mb-3">Mapline Local</div>
         <p class="text-sm text-ink/60 leading-relaxed">
-          Local SEO for energy contractors. {{CITY_STATE}}.
+          Google Business Profile optimization for local service businesses.
         </p>
       </div>
       <div>
         <div class="text-xs uppercase tracking-widest text-ink/60 mb-3">Contact</div>
         <ul class="text-sm space-y-2">
-          <li><a href="mailto:{{FOUNDER_EMAIL}}" class="underline underline-offset-4 hover:text-accent">{{FOUNDER_EMAIL}}</a></li>
-          <li><a href="tel:{{FOUNDER_PHONE}}" class="underline underline-offset-4 hover:text-accent">{{FOUNDER_PHONE}}</a></li>
-          <li><a href="{{LINKEDIN_URL}}" class="underline underline-offset-4 hover:text-accent">LinkedIn</a></li>
+          <li><a href="mailto:bentontheissen@gmail.com" class="underline underline-offset-4 hover:text-accent">bentontheissen@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/bentontheissen" class="underline underline-offset-4 hover:text-accent">LinkedIn</a></li>
         </ul>
       </div>
       <div>
@@ -449,12 +416,12 @@
         <ul class="text-sm space-y-2">
           <li><a href="#methodology" class="underline underline-offset-4 hover:text-accent">Methodology</a></li>
           <li><a href="#pricing" class="underline underline-offset-4 hover:text-accent">Pricing</a></li>
-          <li><a href="{{CALENDLY_URL}}" class="underline underline-offset-4 hover:text-accent">Book an audit</a></li>
+          <li><a href="#cta" class="underline underline-offset-4 hover:text-accent">Book an audit</a></li>
         </ul>
       </div>
     </div>
     <div class="mt-12 pt-8 border-t border-black/5 flex flex-col md:flex-row justify-between gap-4 text-xs text-ink/50">
-      <div>© {{YEAR}} {{AGENCY_LEGAL_NAME}}. All rights reserved.</div>
+      <div>© 2026 Mapline Local. All rights reserved.</div>
       <div class="flex gap-6">
         <span>A Google Business Profile is provided by Google at no cost.</span>
       </div>
