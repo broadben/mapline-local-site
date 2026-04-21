@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50">
+  <!-- Mark -->
+  <g transform="translate(0, 5)" fill="none" stroke="#171717" stroke-width="3" stroke-linecap="round">
+    <path d="M 5 35 A 17 17 0 0 1 39 35" opacity="0.3"/>
+    <path d="M 11 35 A 11 11 0 0 1 33 35" opacity="0.6"/>
+    <path d="M 17 35 A 5 5 0 0 1 27 35"/>
+    <circle cx="22" cy="35" r="2.8" fill="#171717" stroke="none"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="56" y="38" font-family="'Instrument Serif', Georgia, serif" font-size="36" fill="#171717" letter-spacing="-0.5">Beacon</text>
+</svg>
